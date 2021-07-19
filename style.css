@@ -1,0 +1,231 @@
+* {
+	font-size: 1rem;
+	font-family: Montserrat,sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+.nav-link {
+	color: #3CF0FA !important;
+}
+
+li > a {
+	font-size: 1.5rem;
+	font-family: Montserrat Subrayada, sans-serif;
+	font-weight: 400;
+}
+
+body {
+	background: url(./images/bg-landing.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: black;
+	background-size: cover;
+	display: grid;
+}
+
+h1 {
+	text-align: center;
+	margin: auto;
+	color: #3CF0FA;
+	position: relative;
+	font-family: Source Code Pro, sans-serif;
+	width: max-content;
+	font-size: clamp(1rem, 3vw + 1rem, 4rem);
+}
+
+h1::before,
+h1::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+h1::before {
+	background: black;
+	animation: 
+		typewriter 4s steps(18) 1s forwards;
+}
+
+h1::after{
+	width: 0.125em;
+	background: #3CF0FA;
+	animation: 
+		typewriter 4s steps(18) 1s forwards,
+		blink 750ms steps(18) 1s infinite;
+
+}
+
+@keyframes typewriter {
+	to {
+		left: 100%;
+	}
+}
+
+@keyframes blink {
+	to {
+		background: transparent;
+	}
+}
+
+@keyframes fadeInUp {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+#title  {
+	color: #3CF0FA;
+	font-weight: 400;
+	opacity: 0;
+	transform: translateY(3rem);
+	animation: fadeInUp 2s ease 6s forwards;
+}
+
+#bg-landing {
+	height: 90vh;
+}
+
+#landing {
+	padding-top: 40vh;
+}
+
+#welcome {
+	margin-bottom: 20vh;
+}
+
+.jumbotron {
+	padding-top: 10vh;
+	background-color: #3CF0FA;
+}
+
+.container-fluid {
+	margin-bottom: 10vh;
+}
+
+
+.card {
+	background-color: #3CF0FA;
+}
+
+#tools {
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+}
+
+#skillBar {
+	margin-top: 50px;
+}
+
+#HTMLBar {
+	width: 70%;
+}
+
+#CSSBar {
+	width: 60%;
+}
+
+#JSBar {
+	width: 0%;
+}
+
+#contact {
+	margin-top: 20vh;
+	padding-bottom: 20vh;
+}
+
+#welcome-txt {
+	color: black;
+}
+
+h3 {
+	font-weight: 600;
+	color: #3CF0FA;
+}
+
+h4 {
+	color: #3CF0FA;
+}
+
+h2 {
+	font-weight: 700;
+}
+
+h2 + img {
+	margin-top: 5vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+}
+
+img + p {
+	text-indent: 10%;
+}
+
+h2 {
+	color: #3CF0FA;
+}
+
+#gmap_canvas {
+	height: 50vh;
+	width: 100%;
+}
+
+textarea.form-control {
+	width: 100%;
+	height: 200px;
+}
+
+label {
+	color: #3CF0FA;
+}
+
+footer > p {
+	margin-bottom: 0px;
+}
+
+@media (min-width: 576px) {
+    html { font-size: 1rem; }
+    .jumbotron {height: 100vh;overflow: auto;}
+}
+
+@media (min-width: 767px) {
+    html { font-size: 1rem; }
+    .jumbotron {height: 90vh;}
+}
+
+@media (min-width: 992px) {
+    html { font-size: 1rem; }
+    .jumbotron {height: 90vh;}
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 1rem; }
+    .jumbotron {height: 90vh;}
+	#homeLogo {height: 60px; width: 110px;}
+}
+
+@media (min-width: 3000px) {
+    html { font-size: 1.5rem; }
+    .jumbotron {height: 90vh;}
+	#homeLogo {height: 100px; width: 160px;}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
