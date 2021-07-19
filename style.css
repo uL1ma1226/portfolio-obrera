@@ -14,6 +14,10 @@ body {
 	color: #3CF0FA !important;
 }
 
+nav {
+	background-color: black;
+}
+
 li > a {
 	font-size: 1.5rem;
 	font-family: Montserrat Subrayada, sans-serif;
@@ -166,13 +170,14 @@ h2 + img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 30%;
-	height: 30%;
+	width: 40vh;
+	height: 40vh;
 	border-radius: 50%;
 }
 
 img + p {
 	text-indent: 10%;
+	font-weight: 600;
 }
 
 h2 {
