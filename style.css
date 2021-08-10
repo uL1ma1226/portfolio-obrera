@@ -171,8 +171,8 @@ h2 + img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40vh;
-	height: 40vh;
+	width: 30vh;
+	height: 30vh;
 	border-radius: 50%;
 	border: 2px solid black;
 }
@@ -180,6 +180,8 @@ h2 + img {
 img + p {
 	text-indent: 10%;
 	font-weight: 600;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 h2 {
