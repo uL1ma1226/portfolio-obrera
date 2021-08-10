@@ -141,7 +141,19 @@ h1::after{
 }
 
 #JSBar {
-	width: 0%;
+	width: 40%;
+}
+
+#MongoBar {
+	width: 30%;
+}
+
+#NodeBar {
+	width: 40%;
+}
+
+#ExpressBar {
+	width: 40%;
 }
 
 #contact {
